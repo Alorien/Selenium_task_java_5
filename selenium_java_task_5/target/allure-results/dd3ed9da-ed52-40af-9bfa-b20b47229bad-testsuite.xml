@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1550769397759" stop="1550769420723" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Страхование</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1550769397775" stop="1550769420721" status="passed">
+            <name>Заявка на ДМС</name>
+            <title>Заявка на ДМС</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1550769403469" stop="1550769405367" status="passed">
+                    <name>Когда переход в меню:"Маркет"</name>
+                    <title>Когда переход в меню:"Маркет"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769403683" stop="1550769405366" status="passed">
+                            <name>selectMenuItem[Маркет]</name>
+                            <title>Переход в : Маркет</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769405368" stop="1550769408558" status="passed">
+                    <name>Когда выбрано меню:"Электроника"</name>
+                    <title>Когда выбрано меню:"Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769405369" stop="1550769408558" status="passed">
+                            <name>enterElemSearch[Электроника]</name>
+                            <title>Выбор элемента меню : Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769408558" stop="1550769412283" status="passed">
+                    <name>Когда выбрано подменю:"Телевизоры"</name>
+                    <title>Когда выбрано подменю:"Телевизоры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769408559" stop="1550769412282" status="passed">
+                            <name>searchBtnClick[Телевизоры]</name>
+                            <title>Выбор подэлемента меню : Телевизоры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769412283" stop="1550769414616" status="passed">
+                    <name>Когда выбрано все фильтры:"Все фильтры"</name>
+                    <title>Когда выбрано все фильтры:"Все фильтры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769412284" stop="1550769414616" status="passed">
+                            <name>clickFilter[Все фильтры]</name>
+                            <title>Переход в : Все фильтры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769414617" stop="1550769414772" status="passed">
+                    <name>Когда заполнена цена:"20000"</name>
+                    <title>Когда заполнена цена:"20000"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769414617" stop="1550769414772" status="passed">
+                            <name>fillPrice[20000]</name>
+                            <title>Заполнение поля цены : 20000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769414772" stop="1550769414899" status="passed">
+                    <name>Когда выбран производитель:"LG"</name>
+                    <title>Когда выбран производитель:"LG"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769414772" stop="1550769414899" status="passed">
+                            <name>clickDevModel[LG]</name>
+                            <title>Нажатие на чекбокс : LG</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769414899" stop="1550769415035" status="passed">
+                    <name>Когда выбран производитель:"Samsung"</name>
+                    <title>Когда выбран производитель:"Samsung"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769414899" stop="1550769415035" status="passed">
+                            <name>clickDevModel[Samsung]</name>
+                            <title>Нажатие на чекбокс : Samsung</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769415035" stop="1550769417439" status="passed">
+                    <name>Когда кнопка Применить фильтр:"Применить фильтр"</name>
+                    <title>Когда кнопка Применить фильтр:"Применить фильтр"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769415036" stop="1550769417439" status="passed">
+                            <name>clickDoneFilter[Применить фильтр]</name>
+                            <title>Кнопка применить фильтр: Применить фильтр</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769417439" stop="1550769417480" status="passed">
+                    <name>Когда проверка количества элементов:"12"</name>
+                    <title>Когда проверка количества элементов:"12"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769417441" stop="1550769417480" status="passed">
+                            <name>chooseMarket[12]</name>
+                            <title>Проверка количество элементов: 12</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769417480" stop="1550769417507" status="passed">
+                    <name>Когда название элемента запомнено:"Запомнено"</name>
+                    <title>Когда название элемента запомнено:"Запомнено"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769417481" stop="1550769417507" status="passed">
+                            <name>saveElem[Запомнено]</name>
+                            <title>Сохранение первого элемента: Запомнено</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769417507" stop="1550769417955" status="passed">
+                    <name>Когда ввод заполненного элемента:"Ввод"</name>
+                    <title>Когда ввод заполненного элемента:"Ввод"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769417508" stop="1550769417955" status="passed">
+                            <name>enterElemSearch[Ввод]</name>
+                            <title>Ввод первого элемента в поисковую строку : Ввод</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769417956" stop="1550769419962" status="passed">
+                    <name>Когда нажатие кнопки Поиск:"Поиск"</name>
+                    <title>Когда нажатие кнопки Поиск:"Поиск"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769417956" stop="1550769419962" status="passed">
+                            <name>searchBtnClick[Поиск]</name>
+                            <title>Нажатие кнопки : Поиск</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769419962" stop="1550769419992" status="passed">
+                    <name>Когда сохранный элемент проверен:"Проверен"</name>
+                    <title>Когда сохранный элемент проверен:"Проверен"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769419963" stop="1550769419992" status="passed">
+                            <name>enterElemSearch[Проверен]</name>
+                            <title>Проверка названия продукта : Проверен</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Заявка на ДМС"/>
+                <label name="feature" value="Страхование"/>
+                <label name="host" value="DESKTOP-LSKK0O3"/>
+                <label name="thread" value="7096@DESKTOP-LSKK0O3.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Страхование"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

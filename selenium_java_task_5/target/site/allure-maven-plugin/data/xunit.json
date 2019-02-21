@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1550769397775,
+    "stop" : 1550769420721,
+    "duration" : 22946
+  },
+  "testSuites" : [ {
+    "uid" : "94ae51c846e09db3",
+    "name" : "Страхование",
+    "title" : "Страхование",
+    "time" : {
+      "start" : 1550769397775,
+      "stop" : 1550769420721,
+      "duration" : 22946
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "a266faa645439c8e",
+      "name" : "Заявка на ДМС",
+      "title" : "Заявка на ДМС",
+      "time" : {
+        "start" : 1550769397775,
+        "stop" : 1550769420721,
+        "duration" : 22946
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

@@ -1,0 +1,446 @@
+{
+  "uid" : "a266faa645439c8e",
+  "name" : "Заявка на ДМС",
+  "title" : "Заявка на ДМС",
+  "time" : {
+    "start" : 1550769397775,
+    "stop" : 1550769420721,
+    "duration" : 22946
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 26
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "94ae51c846e09db3",
+    "name" : "Страхование",
+    "title" : "Страхование"
+  },
+  "steps" : [ {
+    "name" : "Когда переход в меню:\"Маркет\"",
+    "title" : "Когда переход в меню:\"Маркет\"",
+    "time" : {
+      "start" : 1550769403469,
+      "stop" : 1550769405367,
+      "duration" : 1898
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMenuItem[Маркет]",
+      "title" : "Переход в : Маркет",
+      "time" : {
+        "start" : 1550769403683,
+        "stop" : 1550769405366,
+        "duration" : 1683
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбрано меню:\"Электроника\"",
+    "title" : "Когда выбрано меню:\"Электроника\"",
+    "time" : {
+      "start" : 1550769405368,
+      "stop" : 1550769408558,
+      "duration" : 3190
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "enterElemSearch[Электроника]",
+      "title" : "Выбор элемента меню : Электроника",
+      "time" : {
+        "start" : 1550769405369,
+        "stop" : 1550769408558,
+        "duration" : 3189
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбрано подменю:\"Телевизоры\"",
+    "title" : "Когда выбрано подменю:\"Телевизоры\"",
+    "time" : {
+      "start" : 1550769408558,
+      "stop" : 1550769412283,
+      "duration" : 3725
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "searchBtnClick[Телевизоры]",
+      "title" : "Выбор подэлемента меню : Телевизоры",
+      "time" : {
+        "start" : 1550769408559,
+        "stop" : 1550769412282,
+        "duration" : 3723
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбрано все фильтры:\"Все фильтры\"",
+    "title" : "Когда выбрано все фильтры:\"Все фильтры\"",
+    "time" : {
+      "start" : 1550769412283,
+      "stop" : 1550769414616,
+      "duration" : 2333
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickFilter[Все фильтры]",
+      "title" : "Переход в : Все фильтры",
+      "time" : {
+        "start" : 1550769412284,
+        "stop" : 1550769414616,
+        "duration" : 2332
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполнена цена:\"20000\"",
+    "title" : "Когда заполнена цена:\"20000\"",
+    "time" : {
+      "start" : 1550769414617,
+      "stop" : 1550769414772,
+      "duration" : 155
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillPrice[20000]",
+      "title" : "Заполнение поля цены : 20000",
+      "time" : {
+        "start" : 1550769414617,
+        "stop" : 1550769414772,
+        "duration" : 155
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран производитель:\"LG\"",
+    "title" : "Когда выбран производитель:\"LG\"",
+    "time" : {
+      "start" : 1550769414772,
+      "stop" : 1550769414899,
+      "duration" : 127
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickDevModel[LG]",
+      "title" : "Нажатие на чекбокс : LG",
+      "time" : {
+        "start" : 1550769414772,
+        "stop" : 1550769414899,
+        "duration" : 127
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран производитель:\"Samsung\"",
+    "title" : "Когда выбран производитель:\"Samsung\"",
+    "time" : {
+      "start" : 1550769414899,
+      "stop" : 1550769415035,
+      "duration" : 136
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickDevModel[Samsung]",
+      "title" : "Нажатие на чекбокс : Samsung",
+      "time" : {
+        "start" : 1550769414899,
+        "stop" : 1550769415035,
+        "duration" : 136
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда кнопка Применить фильтр:\"Применить фильтр\"",
+    "title" : "Когда кнопка Применить фильтр:\"Применить фильтр\"",
+    "time" : {
+      "start" : 1550769415035,
+      "stop" : 1550769417439,
+      "duration" : 2404
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickDoneFilter[Применить фильтр]",
+      "title" : "Кнопка применить фильтр: Применить фильтр",
+      "time" : {
+        "start" : 1550769415036,
+        "stop" : 1550769417439,
+        "duration" : 2403
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда проверка количества элементов:\"12\"",
+    "title" : "Когда проверка количества элементов:\"12\"",
+    "time" : {
+      "start" : 1550769417439,
+      "stop" : 1550769417480,
+      "duration" : 41
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "chooseMarket[12]",
+      "title" : "Проверка количество элементов: 12",
+      "time" : {
+        "start" : 1550769417441,
+        "stop" : 1550769417480,
+        "duration" : 39
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда название элемента запомнено:\"Запомнено\"",
+    "title" : "Когда название элемента запомнено:\"Запомнено\"",
+    "time" : {
+      "start" : 1550769417480,
+      "stop" : 1550769417507,
+      "duration" : 27
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "saveElem[Запомнено]",
+      "title" : "Сохранение первого элемента: Запомнено",
+      "time" : {
+        "start" : 1550769417481,
+        "stop" : 1550769417507,
+        "duration" : 26
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда ввод заполненного элемента:\"Ввод\"",
+    "title" : "Когда ввод заполненного элемента:\"Ввод\"",
+    "time" : {
+      "start" : 1550769417507,
+      "stop" : 1550769417955,
+      "duration" : 448
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "enterElemSearch[Ввод]",
+      "title" : "Ввод первого элемента в поисковую строку : Ввод",
+      "time" : {
+        "start" : 1550769417508,
+        "stop" : 1550769417955,
+        "duration" : 447
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда нажатие кнопки Поиск:\"Поиск\"",
+    "title" : "Когда нажатие кнопки Поиск:\"Поиск\"",
+    "time" : {
+      "start" : 1550769417956,
+      "stop" : 1550769419962,
+      "duration" : 2006
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "searchBtnClick[Поиск]",
+      "title" : "Нажатие кнопки : Поиск",
+      "time" : {
+        "start" : 1550769417956,
+        "stop" : 1550769419962,
+        "duration" : 2006
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда сохранный элемент проверен:\"Проверен\"",
+    "title" : "Когда сохранный элемент проверен:\"Проверен\"",
+    "time" : {
+      "start" : 1550769419962,
+      "stop" : 1550769419992,
+      "duration" : 30
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "enterElemSearch[Проверен]",
+      "title" : "Проверка названия продукта : Проверен",
+      "time" : {
+        "start" : 1550769419963,
+        "stop" : 1550769419992,
+        "duration" : 29
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Страхование"
+  }, {
+    "name" : "suite-name",
+    "value" : "Страхование"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LSKK0O3"
+  }, {
+    "name" : "thread",
+    "value" : "7096@DESKTOP-LSKK0O3.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "Заявка на ДМС"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

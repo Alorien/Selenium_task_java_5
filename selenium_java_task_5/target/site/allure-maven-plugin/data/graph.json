@@ -1,0 +1,14 @@
+{
+  "testCases" : [ {
+    "uid" : "a266faa645439c8e",
+    "name" : "Заявка на ДМС",
+    "title" : "Заявка на ДМС",
+    "time" : {
+      "start" : 1550769397775,
+      "stop" : 1550769420721,
+      "duration" : 22946
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}
